@@ -5,7 +5,7 @@ import asyncio
 
 async def load_data():
     # 데이터를 읽어오는 작업을 시뮬레이션합니다.
-    await asyncio.sleep(3)  # 3초 동안 대기
+    await asyncio.sleep(1)  # 1초 동안 대기
     with open("coordinatemap.html", "r", encoding="utf-8") as f:
         return f.read()
 
