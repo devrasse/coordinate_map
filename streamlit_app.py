@@ -12,6 +12,8 @@ async def load_data():
 async def main():
     st.set_page_config(layout="wide")
 
+    st.markdown('<div class="centered"><h1 style="text-align:center;"> 지도 좌표 찾기 </h1></div>', unsafe_allow_html=True)
+    
     with open("lottiefiles/loading.json", "r") as f:
         lottie_loading = json.load(f)
 
